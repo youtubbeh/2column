@@ -1,0 +1,21 @@
+.attribution {
+    font-size: 11px; text-align: center;
+
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+.guide {
+    color: hsl(243, 87%, 12%);
+    color: hsl(238, 22%, 44%);
+    color: hsl(224, 93%, 58%);
+    color: hsl(170, 45%, 43%);
+    color: hsl(240, 75%, 98%);
+    color: hsl(0, 0%, 75%);
+    font-family: 'Open Sans', sans-serif; /* Body */
+    font-family: 'Raleway', sans-serif; /* Headings, CTAs, Header Navigation */
+    /* mobile width: 375px */
+    /* desktop width: 1440px */
+}

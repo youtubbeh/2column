@@ -16,6 +16,103 @@ html,body {
     overflow-x:hidden;
 }
 
+header, section, footer {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+header {
+    padding-top: 60px;
+    margin-bottom: 110px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+nav img {
+    object-fit: contain;
+    width: 150px;
+}
+
+.nav-links {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    color: hsl(238, 22%, 44%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text, .hero .img-wrapper, .img-wrapper img {
+    max-width: 540px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    color: hsl(243, 87%, 12%);
+}
+
+.hero-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: hsl(243, 87%, 12%);
+}
+
+button {
+    background-color: hsl(224, 93%, 58%);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px 2px hsla(0, 0%, 0%, 0.1);
+}
+
+input {
+    height: 40px;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 75%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header button {
+    width: 35%;
+}
+
+header input {
+    width: 55%;
+    margin-right: 10px;
+}
+
+
+
+
+.CTA button {
+    width: 60%;
+}
+
 .attribution {
     font-size: 11px; text-align: center;
 
@@ -32,8 +129,8 @@ html,body {
     color: hsl(170, 45%, 43%);
     color: hsl(240, 75%, 98%);
     color: hsl(0, 0%, 75%);
-    font-family: 'Open Sans', sans-serif; /* Body */
-    font-family: 'Raleway', sans-serif; /* Headings, CTAs, Header Navigation */
+    font-family: 'Open Sans', sans-serif; font-weight: 400; /* Body */
+    font-family: 'Raleway', sans-serif; font-weight: 400, 700; /* Headings, CTAs, Header Navigation */
     /* mobile width: 375px */
     /* desktop width: 1440px */
 }

@@ -23,7 +23,10 @@ header, section, footer {
 
 header {
     padding-top: 60px;
-    margin-bottom: 110px;
+    padding-bottom: 250px;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 nav {
@@ -104,6 +107,13 @@ header button {
 header input {
     width: 55%;
     margin-right: 10px;
+}
+
+.productive {
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(170, 45%, 43%);
+    background-position: bottom;
 }
 
 

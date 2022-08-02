@@ -265,8 +265,9 @@ footer {
     padding-bottom: 80px;
 }
 
-footer img {
+img[alt="fylo-logo"] {
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(188deg) brightness(101%) contrast(105%);
+    margin-bottom: 25px;
 }
 
 footer ion-icon, footer p {
@@ -275,7 +276,73 @@ footer ion-icon, footer p {
 
 footer p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone, .email {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contact img {
+    width: 18px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 400px;
+}
+
+.links p {
+    margin-bottom: 10px;
+}
+
+.links p:nth-child(1) {
+    order: 1;
+}
+
+.links p:nth-child(2) {
+    order: 3;
+}
+
+.links p:nth-child(3) {
+    order: 5;
+}
+
+.links p:nth-child(4) {
+    order: 7;
+}
+
+.links p:nth-child(5) {
+    order: 2;
+}
+
+.links p:nth-child(6) {
+    order: 4;
+}
+
+.links p:nth-child(7) {
+    order: 6;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    position: relative;
+    right: 200px;
+}
+
+ion-icon {
+    font-size: 24px;
 }
 
 .attribution {

@@ -347,7 +347,8 @@ ion-icon {
 
 .attribution {
     font-size: 11px; text-align: center;
-
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);

@@ -373,18 +373,39 @@ ion-icon {
 
 @media all and (max-width: 1019px) {
 
-    header {
-        padding-top: 30px;
+    .hero {
+        flex-direction: column-reverse;
     }
 
-    header, section, footer {
-        padding-left: 30px;
-        padding-right: 30px;
+    .hero h1, .hero p {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        height: 95px;
+    }
+
+    header input, header button {
+        width: 100%;
     }
 
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 620px) {
+
+    header, section, footer {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    header {
+        padding-top: 30px;
+        padding-bottom: 200px;
+    }
 
     nav img {
         width: 90px;
@@ -394,6 +415,36 @@ ion-icon {
         font-size: 12px;
     }
 
+    .img-wrapper, .img-wrapper img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hero-text p, .text p {
+        font-size: 14px;
+    }
+
+    .secondary-cta {
+        margin: 0 auto;
+    }
+
+    .secondary-cta p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .testimonial p {
+        font-size: 11px;
+    }
 }
 
 .attribution {

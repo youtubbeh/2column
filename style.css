@@ -401,6 +401,35 @@ ion-icon {
         flex-direction: column-reverse;
     }
 
+    .testimonial, .secondary-cta {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .CTA {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    h2, h3, .CTA p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .CTA form {
+        align-items: center;
+        width: 100%;
+    }
+
+    .CTA input, .CTA button {
+        width: 85%;
+    }
+
+    .nudge {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 @media all and (max-width: 620px) {
@@ -432,8 +461,9 @@ ion-icon {
     }
 
     h2, h3 {
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .hero-text p, .text p {
@@ -451,6 +481,10 @@ ion-icon {
 
     .testimonial p {
         font-size: 11px;
+    }
+
+    .CTA {
+        padding-top: 60px;
     }
 }
 

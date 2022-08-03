@@ -47,12 +47,13 @@ nav img {
 
 .nav-links {
     display: flex;
-    width: 20%;
     justify-content: space-between;
     color: hsl(238, 22%, 44%);
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    gap: 1.5em;
+    white-space: nowrap;
 }
 
 .hero {
@@ -368,6 +369,31 @@ footer p {
 
 ion-icon {
     font-size: 24px;
+}
+
+@media all and (max-width: 1019px) {
+
+    header {
+        padding-top: 30px;
+    }
+
+    header, section, footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+
+    nav img {
+        width: 90px;
+    }
+
+    .nav-links p {
+        font-size: 12px;
+    }
+
 }
 
 .attribution {

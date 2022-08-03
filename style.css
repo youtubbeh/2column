@@ -531,15 +531,15 @@ ion-icon {
     color: hsl(228, 45%, 44%);
 }
 
-.guide {
+/* style guide
     color: hsl(243, 87%, 12%);
     color: hsl(238, 22%, 44%);
     color: hsl(224, 93%, 58%);
     color: hsl(170, 45%, 43%);
     color: hsl(240, 75%, 98%);
     color: hsl(0, 0%, 75%);
-    font-family: 'Open Sans', sans-serif; font-weight: 400; /* Body */
-    font-family: 'Raleway', sans-serif; font-weight: 400, 700; /* Headings, CTAs, Header Navigation */
-    /* mobile width: 375px */
-    /* desktop width: 1440px */
-}
+    font-family: 'Open Sans', sans-serif; font-weight: 400; Body
+    font-family: 'Raleway', sans-serif; font-weight: 400, 700; Headings, CTAs, Header Navigation
+    mobile width: 375px
+    desktop width: 1440px
+*/

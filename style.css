@@ -289,6 +289,7 @@ footer {
 footer img[alt="fylo-logo"] {
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(188deg) brightness(101%) contrast(105%);
     margin-bottom: 25px;
+    max-width: 166px;
 }
 
 footer ion-icon, footer p {
@@ -430,6 +431,15 @@ ion-icon {
         width: 100%;
         margin-bottom: 30px;
     }
+
+    .info {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .social {
+        position: static;
+    }
 }
 
 @media all and (max-width: 620px) {
@@ -492,6 +502,23 @@ ion-icon {
     header {
         background-image: url(./images/bg-curve-mobile.svg);
         padding-bottom: 150px;
+    }
+
+    .info {
+        height: 400px;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .links :nth-child(4) {
+        margin-bottom: 40px;
+    }
+
+    .social {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

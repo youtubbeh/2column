@@ -377,6 +377,10 @@ ion-icon {
         flex-direction: column-reverse;
     }
 
+    .img-wrapper {
+        margin-bottom: 50px;
+    } 
+
     .hero h1, .hero p {
         text-align: center;
     }
@@ -393,6 +397,10 @@ ion-icon {
         width: 100%;
     }
 
+    .productive {
+        flex-direction: column-reverse;
+    }
+
 }
 
 @media all and (max-width: 620px) {
@@ -404,7 +412,6 @@ ion-icon {
 
     header {
         padding-top: 30px;
-        padding-bottom: 200px;
     }
 
     nav img {
@@ -424,7 +431,7 @@ ion-icon {
         text-align: center;
     }
 
-    h2 {
+    h2, h3 {
         font-size: 16px;
         text-align: center;
     }
@@ -444,6 +451,13 @@ ion-icon {
 
     .testimonial p {
         font-size: 11px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    header {
+        background-image: url(./images/bg-curve-mobile.svg);
+        padding-bottom: 150px;
     }
 }
 
